@@ -1,0 +1,53 @@
+
+    .main {
+        height: 100vh;
+    }
+
+    .sidebar {
+        background: rgb(94, 94, 94);
+        color: #fff;
+    }
+
+    .sidebar a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 20px 10px;
+    }
+
+    .sidebar a:hover {
+        background: #000;
+    }
+    .active {
+        background: #000;
+        
+    }
+    .card-data{
+        border: solid 1px;
+        padding: 20px 50px;
+       
+    }
+    .card-data.book{
+        background-color: teal;
+        color: #fff;
+
+    }
+    .card-data.category{
+
+        background-color: orangered;
+        color: #fff;
+    }
+    .card-data.users{
+        background-color: rgb(70, 3, 125);
+        color: #fff;
+
+    }
+    .card-data i{
+        font-size:  80px;
+    }
+    .card-desc {
+        font-size:  30px;
+    }
+    .card-count {
+        font-size:  30px;
+    }
